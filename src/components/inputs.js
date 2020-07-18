@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import Select from "react-select";
 
-const Error = ({children}) => (<p style={{color: "orangered"}}>{children}</p>);
+export const Error = ({children}) => (<p style={{color: "orangered"}}>{children}</p>);
 
 export const TextInput = React.forwardRef(({label, error}, ref) => (
   <>
